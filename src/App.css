@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=League+Script&display=swap");
+
+* {
+  background-color: #eef9f9;
+  font-family: "Merriweather", serif;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  background-color: #e7e4f5;
+  border: solid #ebd1ee 3px;
+}
+.nav h1 {
+  background-color: #e7e4f5;
+  margin: 0;
+  text-align: center;
+  font-family: "League Script", cursive;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav li {
+  border-left: 5px solid #e7e4f5;
+  border-right: 5px solid #e7e4f5;
+}
+
+.nav a {
+  color: #272343;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  background-color: #e7e4f5;
+}
+.nav a:hover {
+  background-color: #ebd1ee;
+}

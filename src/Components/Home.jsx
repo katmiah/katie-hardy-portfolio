@@ -3,7 +3,7 @@ import image from "../assets/image.jpeg";
 function Home() {
   return (
     <div>
-      <header>
+      <header className="header-2">
         <h2>Katie Hardy</h2>
       </header>
       <p>

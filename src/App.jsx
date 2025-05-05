@@ -2,6 +2,7 @@ import Header from "./Components/Header";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import About from "./Components/About";
+import ContactForm from "./Components/ContactForm";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 
@@ -16,6 +17,10 @@ function App() {
           <Route path="/about" element={<About />} />
         </Routes>
       </>
+      <div className="App">
+        <h4>Contact me</h4>
+        <ContactForm />
+      </div>
     </div>
   );
 }

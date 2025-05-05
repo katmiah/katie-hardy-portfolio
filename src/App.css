@@ -1,24 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=League+Script&display=swap");
 
 * {
-  background-color: #eef9f9;
-  font-family: "Merriweather", serif;
+  background-color: #f6f6f9;
+  font-family: "Open Sans", sans-serif;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  color: #2d3142;
 }
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
   padding-left: 1rem;
-  background-color: #e7e4f5;
-  border: solid #ebd1ee 3px;
+  border-bottom: solid #b0d7ff 1.5px;
+  box-shadow: 4px 4px 12px rgba(184, 174, 174, 0.396);
+  background-color: white;
+  padding: 10px;
 }
 .nav h1 {
-  background-color: #e7e4f5;
   margin: 0;
-  text-align: center;
   font-family: "League Script", cursive;
+  font-weight: bold;
+  background-color: white;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 35px;
 }
 
 .nav ul {
@@ -28,19 +40,73 @@
   margin: 0px;
 }
 
-.nav li {
-  border-left: 5px solid #e7e4f5;
-  border-right: 5px solid #e7e4f5;
-}
-
 .nav a {
   color: #272343;
   text-decoration: none;
   padding: 15px;
   display: block;
   text-align: center;
-  background-color: #e7e4f5;
+  background-color: white;
 }
 .nav a:hover {
-  background-color: #ebd1ee;
+  color: #b0d7ff;
+}
+
+.bio-container {
+  max-width: 1000px;
+  margin: 2% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.bio-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: nowrap;
+  text-align: left;
+}
+
+.text-container {
+  max-width: 400px;
+}
+
+.text-container h2 {
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.text-container p {
+  font-size: 20px;
+}
+
+.image-container {
+  flex-shrink: 0;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: solid #b0d7ff 7px;
+}
+
+@media (max-width: 768px) {
+  .bio-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image {
+    width: 250px;
+    height: 250px;
+  }
 }

@@ -1,4 +1,6 @@
 import image from "../assets/image.jpeg";
+import ContactForm from "./ContactForm";
+import { useEffect } from "react";
 
 function Home() {
   return (
@@ -23,6 +25,13 @@ function Home() {
             alt="Woman looking up at a pink camellia"
           />
         </div>
+      </div>
+      <header className="contact-me">
+        <h5>Contact me 👇🏻</h5>
+      </header>
+      <section style={{ minHeight: "400px" }}></section>
+      <div className="App">
+        <ContactForm />
       </div>
     </div>
   );

@@ -36,16 +36,26 @@ function ContactForm() {
     e.target.reset();
   };
   return (
-    <form onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" disabled={isSubmitting} />
-      {stateMessage && <p>{stateMessage}</p>}
-    </form>
+    <div className="contact-form">
+      <form onSubmit={sendEmail}>
+        <div className="form-row">
+          <div className="form-group">
+            <label>Name</label>
+            <input type="text" name="user_name" />
+          </div>
+          <div className="form-group">
+            <label>Email</label>
+            <input type="email" name="user_email" />
+          </div>
+        </div>
+
+        <label>Message</label>
+        <textarea name="message" />
+
+        <input type="submit" value="Send" disabled={isSubmitting} />
+        {stateMessage && <p>{stateMessage}</p>}
+      </form>
+    </div>
   );
 }
 export default ContactForm;

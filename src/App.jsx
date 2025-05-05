@@ -17,10 +17,6 @@ function App() {
           <Route path="/about" element={<About />} />
         </Routes>
       </>
-      <div className="App">
-        <h4>Contact me</h4>
-        <ContactForm />
-      </div>
     </div>
   );
 }

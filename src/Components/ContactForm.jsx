@@ -41,16 +41,16 @@ function ContactForm() {
         <div className="form-row">
           <div className="form-group">
             <label>Name</label>
-            <input type="text" name="user_name" />
+            <input type="text" name="user_name" required />
           </div>
           <div className="form-group">
             <label>Email</label>
-            <input type="email" name="user_email" />
+            <input type="email" name="user_email" required />
           </div>
         </div>
 
         <label>Message</label>
-        <textarea name="message" />
+        <textarea name="message" required />
 
         <input type="submit" value="Send" disabled={isSubmitting} />
         {stateMessage && <p>{stateMessage}</p>}

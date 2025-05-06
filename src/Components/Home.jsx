@@ -27,12 +27,14 @@ function Home() {
         </div>
       </div>
       <header className="contact-me">
-        <h5>Contact me 👇🏻</h5>
+        <h3>Contact me 👇🏻</h3>
       </header>
-      <section style={{ minHeight: "400px" }}></section>
-      <div className="App">
-        <ContactForm />
-      </div>
+      <section className="contact-form-section" id="contactForm">
+        <div style={{ height: "300px" }}></div>
+        <div className="form-wrapper">
+          <ContactForm />
+        </div>
+      </section>
     </div>
   );
 }

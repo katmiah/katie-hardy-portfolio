@@ -168,6 +168,7 @@
   box-sizing: border-box;
   border: solid #2d3142 0.5px;
   background-color: white;
+  border-radius: 10px;
 }
 .contact-form textarea {
   width: 100%;
@@ -177,6 +178,7 @@
   box-sizing: border-box;
   border: solid #2d3142 0.5px;
   background-color: white;
+  border-radius: 10px;
 }
 .about-section {
   display: flex;

@@ -140,12 +140,14 @@
   max-width: 600px;
   width: 100%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: #b0d7ff;
 }
 
 .form-row {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
+  background-color: #b0d7ff;
 }
 
 .form-group {
@@ -153,6 +155,7 @@
   min-width: 200px;
   display: flex;
   flex-direction: column;
+  background-color: #b0d7ff;
 }
 
 .form-group label {
@@ -160,6 +163,7 @@
   min-width: 200px;
   display: flex;
   flex-direction: column;
+  background-color: #b0d7ff;
 }
 .contact-form input {
   width: 100%;
@@ -179,6 +183,13 @@
   border: solid #2d3142 0.5px;
   background-color: white;
   border-radius: 10px;
+}
+.form-message {
+  background-color: #b0d7ff;
+}
+
+.form-message label {
+  background-color: #b0d7ff;
 }
 .about-section {
   display: flex;
@@ -220,7 +231,7 @@
 }
 
 .button:hover {
-  background-color: #0056b3;
+  background-color: #eae8ff;
 }
 .about-section h4 {
   font-size: 23px;
@@ -237,4 +248,48 @@
   font-style: italic;
   font-weight: normal;
   font-size: 18px;
+}
+.nc-news {
+  margin: 5%;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: #b0d7ff;
+  box-sizing: border-box;
+}
+.nc-news img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin: 15px auto;
+  display: block;
+}
+.nc-news h5 {
+  display: flex;
+  justify-content: center;
+  padding: 6px;
+  background-color: #b0d7ff;
+  font-size: 16px;
+  border-bottom: solid #2d3142 0.5px;
+}
+
+.nc-news p {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 6px;
+  background-color: #b0d7ff;
+}
+.nc-news a {
+  display: flex;
+  justify-content: center;
+  background-color: #b0d7ff;
+
+  font-weight: bold;
+}
+.tech-stack {
+  font-weight: bold;
 }

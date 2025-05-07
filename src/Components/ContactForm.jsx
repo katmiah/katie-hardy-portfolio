@@ -48,12 +48,13 @@ function ContactForm() {
             <input type="email" name="user_email" required />
           </div>
         </div>
+        <div className="form-message">
+          <label>Message</label>
+          <textarea name="message" required />
 
-        <label>Message</label>
-        <textarea name="message" required />
-
-        <input type="submit" value="Send" disabled={isSubmitting} />
-        {stateMessage && <p>{stateMessage}</p>}
+          <input type="submit" value="Send" disabled={isSubmitting} />
+          {stateMessage && <p>{stateMessage}</p>}
+        </div>
       </form>
     </div>
   );

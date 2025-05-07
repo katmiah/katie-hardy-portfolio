@@ -1,4 +1,6 @@
 import ncNews from "../assets/nc-news.png";
+import React from "react";
+import ReactPlayer from "react-player";
 
 function Work() {
   return (
@@ -33,6 +35,27 @@ function Work() {
       </p>
       <a href="https://github.com/katmiah/fe-nc-news">GitHub Link</a>
       <a href="https://katie-nc-news.netlify.app/">Live project</a>
+
+      <section></section>
+
+      <div>
+        <h5>2Gather</h5>
+        <ReactPlayer url="https://www.youtube.com/watch?v=jVDISdUYS6I" />
+        <p></p>
+        <h5>Backend</h5>
+        <p></p>
+        <p></p>
+        <a href="https://github.com/katmiah/be-nc-news">GitHub Link</a>
+        <h5>Frontend</h5>
+        <p></p>
+        <p>Tech Stack: React, Axios, React Router, CSS</p>
+        <p>
+          Features: Browse and filter news articles by topic. Like articles and
+          post comments. Responsive design with intuitive UX.
+        </p>
+        <a href="https://github.com/katmiah/fe-nc-news">GitHub Link</a>
+        <a href="https://katie-nc-news.netlify.app/">Live project</a>
+      </div>
     </div>
   );
 }

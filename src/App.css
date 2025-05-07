@@ -258,6 +258,7 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   background-color: #b0d7ff;
   box-sizing: border-box;
+  margin: 5% auto;
 }
 .nc-news img {
   max-width: 100%;
@@ -269,9 +270,9 @@
 .nc-news h5 {
   display: flex;
   justify-content: center;
-  padding: 6px;
+  padding: 10px;
   background-color: #b0d7ff;
-  font-size: 16px;
+  font-size: 20px;
   border-bottom: solid #2d3142 0.5px;
 }
 
@@ -282,12 +283,13 @@
   text-justify: inter-word;
   padding: 6px;
   background-color: #b0d7ff;
+  font-size: 15px;
 }
 .nc-news a {
   display: flex;
   justify-content: center;
   background-color: #b0d7ff;
-
+  padding: 5px;
   font-weight: bold;
 }
 .tech-stack {

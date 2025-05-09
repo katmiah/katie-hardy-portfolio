@@ -41,9 +41,24 @@ function Work() {
       <div>
         <h5>2Gather</h5>
         <ReactPlayer url="https://www.youtube.com/watch?v=jVDISdUYS6I" />
-        <p></p>
+        <p>
+          Built during the group project phase of the Northcoders bootcamp,
+          2Gather is a full-stack React Native app designed to help users
+          connect through one-on-one events. Users can sign up, host their own
+          events, and request to join others'. The app is built with React
+          Native, Fastify, and PostgreSQL (via Supabase), featuring Base64 image
+          handling for efficient uploads and a seamless cross-platform
+          experience. Developed collaboratively using agile methodologies and
+          GitHub for version control.
+        </p>
         <h5>Backend</h5>
-        <p></p>
+        <p>
+          Features: The backend of 2Gather is built with Fastify and PostgreSQL
+          (via Supabase), providing a high-performance RESTful API that supports
+          event creation and attendance management, and Base64-encoded image
+          handling. It’s deployed on Render and designed for smooth integration
+          with the frontend.
+        </p>
         <p></p>
         <a href="https://github.com/katmiah/be-nc-news">GitHub Link</a>
         <h5>Frontend</h5>

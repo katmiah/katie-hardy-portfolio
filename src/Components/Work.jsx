@@ -19,11 +19,34 @@ function Work() {
           butter_bridge and is able to post and delete comments, as well as like
           posts from other users.
         </p>
-        <p className="tech-stack">
-          Tech Stack: JavaScipt, Node.js, Express.js, PostgreSQL, Jest, React,
-          Axios, React Router
-        </p>
-        <img src={js.svg} alt="" />
+
+        <div className="tech-icons">
+          <div className="icon" data-tooltip="JavaScript">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+          </div>
+          <div className="icon" data-tooltip="NodeJS">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
+          </div>
+          <div className="icon" data-tooltip="Express">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
+          </div>
+          <div className="icon" data-tooltip="PostgreSQL">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
+          </div>
+          <div className="icon" data-tooltip="Jest">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg" />
+          </div>
+          <div className="icon" data-tooltip="React">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+          </div>
+          <div className="icon" data-tooltip="Axios">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg" />
+          </div>
+          <div className="icon" data-tooltip="React Router">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" />
+          </div>
+        </div>
+
         <a href="https://github.com/katmiah/be-nc-news">Backend GitHub Link</a>
         <a href="https://github.com/katmiah/fe-nc-news">Frontend GitHub Link</a>
         <a href="https://katie-nc-news.netlify.app/">Live Project</a>

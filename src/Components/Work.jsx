@@ -24,7 +24,7 @@ function Work() {
           <div className="icon" data-tooltip="JavaScript">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
           </div>
-          <div className="icon" data-tooltip="NodeJS">
+          <div className="icon" data-tooltip="Node.js">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
           </div>
           <div className="icon" data-tooltip="Express">
@@ -73,10 +73,29 @@ function Work() {
           experience. Developed collaboratively using agile methodologies and
           GitHub for version control.
         </p>
-        <p className="tech-stack">
-          Tech Stack: JavaScript, React Native, Expo Router, Axios, Base64,
-          Node.js, Fastify, PostgreSQL, Render
-        </p>
+        <div className="tech-icons">
+          <div className="icon" data-tooltip="JavaScript">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+          </div>
+          <div className="icon" data-tooltip="React Native">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+          </div>
+          <div className="icon" data-tooltip="Axios">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg" />
+          </div>
+          <div className="icon" data-tooltip="Node.js">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
+          </div>
+          <div className="icon" data-tooltip="Fastify">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastify/fastify-original.svg" />
+          </div>
+          <div className="icon" data-tooltip="PostgreSQL">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
+          </div>
+          <div className="icon" data-tooltip="Supabase">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" />
+          </div>
+        </div>
         <a href="https://github.com/orgs/2Gather-Project/repositories">
           GitHub Link
         </a>

@@ -1,6 +1,7 @@
 import image from "../assets/image.jpeg";
 import ContactForm from "./ContactForm";
 import { useEffect } from "react";
+import DownloadButton from "./DownloadButton";
 
 function Home() {
   return (
@@ -10,12 +11,7 @@ function Home() {
           <header>
             <h2>Katie Hardy</h2>
           </header>
-          <p>
-            Hi, I’m a full-stack developer who loves turning ideas into awesome
-            web experiences. I’m always exploring new tech and enjoy building
-            apps that are fast, fun, and great to use—both behind the scenes and
-            on the screen.
-          </p>
+          <DownloadButton />
         </div>
 
         <div className="image-container">
@@ -26,7 +22,22 @@ function Home() {
           />
         </div>
       </div>
-      <header className="contact-me">
+
+      <div className="skills-section">
+        <header>
+          <h4>Skills</h4>
+        </header>
+        <p>Javascript, HTML, CSS</p>
+        <p>Test-driven-development, Jest, Supertest</p>
+        <p>SQL, PSQL</p>
+        <p>React, React Native</p>
+        <p>
+          Agile, SCRUM, pair programming, software development lifecycle (SDL),
+          technical communication
+        </p>
+      </div>
+
+      {/* <header className="contact-me">
         <h3>Contact me 👇🏻</h3>
       </header>
       <section className="contact-form-section" id="contactForm">
@@ -34,7 +45,7 @@ function Home() {
         <div className="form-wrapper">
           <ContactForm />
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

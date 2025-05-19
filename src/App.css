@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Script&display=swap");
 
 * {
-  background-color: #f6f6f9;
+  background-image: url("./assets/ripples.png");
   font-family: "Open Sans", sans-serif;
   border: 0;
   padding: 0;
@@ -20,6 +20,7 @@
   box-shadow: 4px 4px 12px rgba(184, 174, 174, 0.396);
   background-color: white;
   padding: 10px;
+  background-image: none;
 }
 .nav h1 {
   margin: 0;
@@ -31,6 +32,7 @@
   left: 50%;
   transform: translateX(-50%);
   font-size: 35px;
+  background-image: none;
 }
 
 .nav ul {
@@ -38,6 +40,7 @@
   list-style-type: none;
   padding: 0px;
   margin: 0px;
+  background-image: none;
 }
 
 .nav a {
@@ -47,6 +50,7 @@
   display: block;
   text-align: center;
   background-color: white;
+  background-image: none;
 }
 .nav a:hover {
   color: #b0d7ff;
@@ -60,6 +64,9 @@
   align-items: center;
   text-align: center;
   margin-top: 15%;
+  min-height: 100vh; /* Allows growth beyond viewport */
+  padding: 2rem; /* Optional: adds breathing room */
+  box-sizing: border-box;
 }
 
 .bio-content {
@@ -80,7 +87,7 @@
   display: flex;
   justify-content: center;
   font-size: 30px;
-  font-style: italic;
+
   font-weight: normal;
 }
 
@@ -243,6 +250,7 @@ h6 {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  background-image: none;
 }
 
 .button:hover {
@@ -390,4 +398,7 @@ h6 {
 
 .tech-icons .icon:hover::after {
   opacity: 1;
+}
+.calendar {
+  background-image: none;
 }

@@ -35,8 +35,18 @@ function ContactForm() {
       );
     e.target.reset();
   };
+
+  <section className="contact-form-section" id="contactForm">
+    <div style={{ height: "300px" }}></div>
+    <div className="form-wrapper"></div>
+  </section>;
+
   return (
     <div className="contact-form">
+      <section className="contact-form-section" id="contactForm">
+        <div style={{ height: "300px" }}></div>
+        <div className="form-wrapper"></div>
+      </section>
       <form onSubmit={sendEmail}>
         <div className="form-row">
           <div className="form-group">

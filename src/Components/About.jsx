@@ -29,7 +29,7 @@ function About() {
         </header>
         <h5>Junior Software Developer – Northcoders Bootcamp</h5>
         <h6>January 2025 – April 2025</h6>
-        <ol>
+        <ul>
           <li>
             Built dynamic full-stack web applications using JavaScript, React,
             Node.js, Express, and PostgreSQL
@@ -47,7 +47,7 @@ function About() {
             reviews—sharpening my ability to write clean code and communicate
             effectively as part of a team.
           </li>
-        </ol>
+        </ul>
       </div>
     </div>
   );

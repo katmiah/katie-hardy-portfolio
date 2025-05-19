@@ -5,23 +5,29 @@ import About from "./Components/About";
 import ContactForm from "./Components/ContactForm";
 import Work from "./Components/Work";
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+import { useInView } from "react-intersection-observer";
 
 function App() {
+  const { ref: aboutRef, inView: aboutInView } = useInView({
+    threshold: 0.1,
+    triggerOnce: true,
+  });
+
+  const { ref: workRef, inView: workInView } = useInView({
+    threshold: 0.1,
+    triggerOnce: true,
+  });
+  console.log("About section in view:", aboutInView);
   return (
     <div>
       <Header />
       <Navbar />
       <Home />
-      <About />
-      <Work />
-      {/* <>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/work" element={<Work />} />
-        </Routes>
-      </> */}
+      <div ref={aboutRef} className={aboutInView ? "fade-in" : ""}>
+        {aboutInView && <About />}
+      </div>
+      <div ref={workRef}>{workInView && <Work />}</div>
+      <ContactForm />
     </div>
   );
 }

@@ -12,6 +12,7 @@ function Home() {
           <header>
             <h2>Katie Hardy</h2>
           </header>
+          <p>Software Developer</p>
           <DownloadButton />
         </div>
 
@@ -23,16 +24,6 @@ function Home() {
           />
         </div>
       </div>
-
-      {/* <header className="contact-me">
-        <h3>Contact me 👇🏻</h3>
-      </header>
-      <section className="contact-form-section" id="contactForm">
-        <div style={{ height: "300px" }}></div>
-        <div className="form-wrapper">
-          <ContactForm />
-        </div>
-      </section> */}
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import image from "../assets/image.jpeg";
 import ContactForm from "./ContactForm";
+import DownloadButton from "./DownloadButton";
 
 import About from "./About";
 

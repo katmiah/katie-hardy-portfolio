@@ -198,13 +198,28 @@
   justify-content: center;
   text-align: center;
   padding: 2rem;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 }
 .skills-section,
 .experience-section {
-  margin-top: 2rem;
   width: 100%;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  margin: 5% auto;
+}
+.experience-section li,
+h4,
+h5,
+h6 {
+  background-color: white;
+}
+
+.skills-section p {
+  background-color: white;
 }
 
 .button {

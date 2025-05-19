@@ -1,6 +1,7 @@
 import image from "../assets/image.jpeg";
 import ContactForm from "./ContactForm";
-import { useEffect } from "react";
+
+import About from "./About";
 
 function Home() {
   return (
@@ -26,7 +27,8 @@ function Home() {
           />
         </div>
       </div>
-      <header className="contact-me">
+
+      {/* <header className="contact-me">
         <h3>Contact me 👇🏻</h3>
       </header>
       <section className="contact-form-section" id="contactForm">
@@ -34,7 +36,7 @@ function Home() {
         <div className="form-wrapper">
           <ContactForm />
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

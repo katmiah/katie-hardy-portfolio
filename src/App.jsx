@@ -4,6 +4,7 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import ContactForm from "./Components/ContactForm";
 import Work from "./Components/Work";
+import Footer from "./Components/Footer";
 import "./App.css";
 import { useInView } from "react-intersection-observer";
 
@@ -28,6 +29,7 @@ function App() {
       </div>
       <div ref={workRef}>{workInView && <Work />}</div>
       <ContactForm />
+      <Footer />
     </div>
   );
 }
